@@ -2,7 +2,7 @@
  * Roxy: Bootstrap template by GettTemplates.com
  * https://gettemplates.co/roxy
  */
-html, body {
+ html, body {
   width: 100%;
   overflow-x: hidden; }
 
@@ -24,29 +24,31 @@ h6,
 .h6 {
   font-family: 'Work Sans', sans-serif;
   margin-top: 0; }
-  .container p span.typed-text {
-    font-weight: normal;
-    color: #13c0e5;/*#dd7732;*/
-    text-align: center; /* to center*/
-    /*text-align: center; */
-  }
-  .container p span.cursor {
-    display: inline-block;
-    background-color: #ccc;
-    margin-left: 0.1rem;
-    width: 3px;
-    animation: blink 1s infinite;
-  }
-  .container p span.cursor.typing {
-    animation: none;
-  }
-  @keyframes blink {
-    0%  { background-color: #ccc; }
-    49% { background-color: #ccc; }
-    50% { background-color: transparent; }
-    99% { background-color: transparent; }
-    100%  { background-color: #ccc; }
-  }
+
+.container p span.typed-text {
+  font-weight: bold;
+  color: #fff;
+  /*#fddbdb;#13c0e5;#dd7732;*/
+  /*text-align: center; */
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
 a {
   color: #ff00cc;
   transition: all .3s ease-in-out; }
@@ -148,9 +150,9 @@ section {
     line-height: .9;
     font-weight: bold;
     display: inline-block;
-    border: 15px solid #fff;
+    /*border: 15px solid #fff;*/
     padding: 30px;
-    font-size: 9rem;
+    font-size: 4.5rem;
     opacity: 0;
     animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
     animation-delay: .8s; }
